@@ -1,12 +1,15 @@
 class Question < ApplicationRecord
+  has_many :question_answers
+  has_many :answers, :through => :question_answers
 
+  
   def show
     @question_id = params[:id]
   end
 
-  def answers
-    QuestionAnswer.where(question_id: self.id).map { |qa| Answer.find(qa.answer_id) }
-  end
+  # def answers
+  #   QuestionAnswer.where(question_id: self.id).map { |qa| Answer.find(qa.answer_id) }
+  # end
 
   def next
     Question.where('id > ?', self.id).first

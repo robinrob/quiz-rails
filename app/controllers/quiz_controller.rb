@@ -2,6 +2,22 @@
 
 class QuizController < ApplicationController
 
+  def questions
+    questions = Question.all()
+    questions.map do |question|
+      qa = QuestionAnswer.where(
+        question_id: question.id
+      )
+      {
+        question: question,
+        answers: qa.map do |qa|
+          answer = Answer.find(qa.answer_id)
+          
+      }
+    end
+    
+
+
   def score
     answers = JSON.parse(request.body.read)['answers']
 

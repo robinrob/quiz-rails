@@ -1,7 +1,5 @@
 class QuestionAnswer < ApplicationRecord
-
-  # def initialize(question_id, answer_id)
-  #
-  # end
-
+    belongs_to :question
+    belongs_to :answer
+    belongs_to :score
 end

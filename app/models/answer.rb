@@ -1,6 +1,5 @@
 class Answer < ApplicationRecord
-
-  def initialize(text)
-    @text = text
-  end
+  has_many :question_answers
+  has_many :questions, :through => :question_answers
+  has_many :scores, :through => :question_answers
 end
