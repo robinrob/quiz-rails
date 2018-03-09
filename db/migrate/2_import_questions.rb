@@ -10,8 +10,6 @@ class ImportQuestions < ActiveRecord::Migration[5.1]
     csv_text = File.read('questions.csv')
     csv = CSV.parse(csv_text, :headers => true)
     csv.each do |row|
-      puts "row: #{row.to_hash}"
-
       question = Question.create(title: row["Question"])
       answer0 = Answer.create(text: row["0 points"], question_id: question.id, score_id: score0.id)
       answer1 = Answer.create(text: row["5 points"], question_id: question.id, score_id: score5.id)
@@ -21,9 +19,6 @@ class ImportQuestions < ActiveRecord::Migration[5.1]
   end
 
   def self.down
-    puts 'HERE'
-
-    QuestionAnswer.delete_all
     Question.delete_all
     Answer.delete_all
     Score.delete_all
