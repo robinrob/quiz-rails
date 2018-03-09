@@ -10,25 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 3) do
+ActiveRecord::Schema.define(version: 2) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "answers", force: :cascade do |t|
     t.string "text"
-  end
-
-  create_table "question_answers", force: :cascade do |t|
     t.integer "question_id"
-    t.integer "answer_id"
     t.integer "score_id"
-    t.bigint "questions_id"
-    t.bigint "answers_id"
-    t.bigint "scores_id"
-    t.index ["answers_id"], name: "index_question_answers_on_answers_id"
-    t.index ["questions_id"], name: "index_question_answers_on_questions_id"
-    t.index ["scores_id"], name: "index_question_answers_on_scores_id"
   end
 
   create_table "questions", force: :cascade do |t|

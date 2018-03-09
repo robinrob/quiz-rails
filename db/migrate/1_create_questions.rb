@@ -6,16 +6,12 @@ class CreateQuestions < ActiveRecord::Migration[5.1]
 
     create_table :answers do |t|
       t.string :text
+      t.integer :question_id
+      t.integer :score_id
     end
 
     create_table :scores do |t|
       t.integer :value
-    end
-
-    create_table :question_answers do |t|
-      t.integer :question_id
-      t.integer :answer_id
-      t.integer :score_id
     end
   end
 end

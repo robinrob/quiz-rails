@@ -13,15 +13,10 @@ class ImportQuestions < ActiveRecord::Migration[5.1]
       puts "row: #{row.to_hash}"
 
       question = Question.create(title: row["Question"])
-      answer0 = Answer.create(text: row["0 points"])
-      answer1 = Answer.create(text: row["5 points"])
-      answer2 = Answer.create(text: row["10 points"])
-      answer3 = Answer.create(text: row["15 points"])
-
-      QuestionAnswer.create(question_id: question.id, answer_id: answer0.id, score_id: score0.id)
-      QuestionAnswer.create(question_id: question.id, answer_id: answer1.id, score_id: score5.id)
-      QuestionAnswer.create(question_id: question.id, answer_id: answer2.id, score_id: score10.id)
-      QuestionAnswer.create(question_id: question.id, answer_id: answer3.id, score_id: score15.id)
+      answer0 = Answer.create(text: row["0 points"], question_id: question.id, score_id: score0.id)
+      answer1 = Answer.create(text: row["5 points"], question_id: question.id, score_id: score5.id)
+      answer2 = Answer.create(text: row["10 points"], question_id: question.id,  score_id: score10.id)
+      answer3 = Answer.create(text: row["15 points"], question_id: question.id,  score_id: score15.id)
     end
   end
 
