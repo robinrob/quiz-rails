@@ -18,15 +18,15 @@ ActiveRecord::Schema.define(version: 2) do
   create_table "answers", force: :cascade do |t|
     t.string "text"
     t.integer "question_id"
-    t.integer "score_id"
   end
 
   create_table "questions", force: :cascade do |t|
     t.string "title"
+    t.integer "quiz_id"
   end
 
-  create_table "scores", force: :cascade do |t|
-    t.integer "value"
+  create_table "quizzes", force: :cascade do |t|
+    t.string "name"
   end
 
 end

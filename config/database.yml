@@ -7,7 +7,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: floatapp_dev
+  database: quiz_dev
   pool: 5
   username:
   password:
@@ -19,7 +19,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: floatapp_test
+  database: quiz_test
   pool: 5
   username:
   password:

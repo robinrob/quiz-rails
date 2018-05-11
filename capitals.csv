@@ -1,0 +1,244 @@
+Question,Answers,marked
+Netherlands,AMSTERDAM,false
+Andorra,ANDORRA LA VELLA,false
+Turkey,ANKARA,true
+Greece,ATHENS,false
+Northen Ireland,BELFAST,false
+Serbia,BELGRADE,false
+Germany,BERLIN,false
+Switzerland,BERN,false
+Slovakia,BRATISLAVIA,false
+Belgium,BRUSSELS,false
+Romania,BUCHAREST,true
+Hungary,BUDAPEST,false
+Wales,CARDIFF,true
+Moldova,CHIŞINĂU,false
+Denmark,COPENHAGEN,false
+Isle of Man,DOUGLAS,false
+Ireland,DUBLIN,false
+Palestine,EAST JERUSALEM,false
+Scotland,EDINBURGH,false
+Akotiri & Dhekelia,EPISKOPI CATONMENT,false
+Gibralta,GIBRALTA,false
+Finland,HELSINKI,true
+Israel,JERUSALEM,false
+Ukraine,KIEV,false
+Portugal,LISBON,false
+Slovenia,LJUBLJANA,false
+England/UK,LONDON,false
+Luxembourg,LUXEMBOURG CITY,false
+Spain,MADRID,false
+Belarus,MINSK,false
+Monaco,MONACO,false
+Cyprus,NICOSIA,false
+Greenland,NUUK,false
+Norway,OSLO,false
+France,PARIS,false
+Montenegro,PODGORICA,true
+Czech Republic,PRAGUE,false
+Kosovo,PRISTINA,false
+Iceland,REYKJAVIK,false
+Latvia,RIGA,false
+Italy,ROME,false
+San Marino,SAN MARINO,false
+Bosnia & Herzegovina,SARAJEVO,false
+Macedonia,SKOPJE,false
+Bulgaria,SOFIA,false
+Jersey,ST HELLIER,true
+Guernsey,ST PETER PORT,false
+Sweden,STOCKHOLM,false
+Estonia,TALLINN,false
+Albania,TIRANA,false
+Iran,TEHRAN,false
+Transnistria,TIRASAPOL,false
+Faroe Islands,TORSHAVN,false
+Lichtenstein,VADUZ,false
+Malta,VALETTA,false
+Vatican City,VATICAN CITY,false
+Austria,VIENNA,false
+Lithuania,VILNIUS,false
+Poland,WARSAW,false
+Croatia,ZAGREB,false
+United Arab Emirates,ABU DHABI,false
+Jordan,AMMAN,false
+Turkmenistan,ASHGABAT,false
+Kazakhstan,ASTANA,false
+Iraq,BAGHDAD,false
+Azerbaijan,BAKU,false
+Brunei,BANDAR SERI BEGAWAN,false
+Thailand,BANGKOK,false
+China,BEIJING,false
+Lebanon,BEIRUT,false
+Krygyzstan,BISHKEK,false
+Syria,DAMASCUS,false
+Bangladesh,DHAKA,false
+East Timor,DILI,false
+Qatar,DOHA,false
+Tajikstan,DUSHANBE,false
+Vietnam,HANOI,false
+Pakistan,ISLAMABAD,false
+Indonesia,JAKARTA,false
+Afgahnistan,KABUL,false
+Nepal,KATHMANDU,false
+Malaysia,KUALAR LUMPAR ,false
+Kuwait,KUWAIT CITY,false
+Maldives,MALE,false
+Bahrain,MANAMA,false
+Philippines,MANILA,false
+Somalia,MOGADISHU,false
+Russia,MOSCOW,false
+Oman,MUSKAT,true
+Burka (Union of Myanmar),NAPYIDAW,false
+India,NEW DELHI,false
+Cambodia,PHNOM PENH,false
+North Korea,PYONGYANG,false
+Saudi Arabia,RIYADH,false
+Yemen,SANAA,false
+South Korea,SEOUL,false
+Singapore,SINGAPORE,false
+Sri Lanka,SRI JAYAWARDENEPURA ,false
+Taiwan,TAIPEI,false
+Uzbekistan,TASHKENT,false
+Georgia,TBILISI,false
+Bhutan,THIMPHU,false
+Japan,TOKYO,false
+Mongolia,ULAANBAATAR,false
+Laos,VIENTIANE,false
+Armenia,YEREVAN,false
+Nigeria,ABUJA,false
+Ghana,ACORA,false
+Ethiopia,ADDIS ABABA,false
+Algeria,ALGIERS,false
+Madagascar,ANTANANARIVO,true
+Eritrea,ASMARA,false
+Mali,BAMAKO,false
+Central African Republic,BANGUI,false
+Gambia,BANJUL,false
+Guinea-Bissau,BISSAU,false
+Republic of the Congo,BRAZZAVILLE,false
+Burundi,BUJUMBURA,false
+Egypt,CAIRO,false
+Guinea,CONAKRY,false
+Senegal,DAKAR,false
+Djibouti,DJIBOUTI,true
+Tanzania,DODOMA ,false
+Sierra Leone,FREETOWN,false
+Botswana,GABORONE,false
+Zimbabwe,HARARE,false
+Somaliland,HARGEISA,false
+Uganda,KAMPALA,false
+Sudan,KHARTOUM,true
+Rwanda,KIGALI,false
+Democratic Republic of the Congo,KINSHASA,false
+Western Sahara,EL AAIÚN (LAÂYOUNE),false
+Gabon,LIBREVILLE,false
+Malawi,LILONGWE,false
+Togo,LOMÉ,false
+Angola,LUANDA,false
+Zambia,LUSAKA,false
+Equitorial Guinea,MALABO,false
+Mayotte,MAMOUDZOU,false
+Mozambique,MAPUTO,false
+Lesotho,MASERU,false
+Swaziland,MBABANE ,false
+Liberia,MONROVIA,false
+Kenya,NAIROBI,false
+Chad,N'DJAMENA,false
+Niger,NIAMEY,false
+Mauritania,NOUAKCHOTT,false
+Burkina Faso,OUGADOGOU,false
+Maritius,PORT LOUIS,false
+Benin,PORTO,false
+Cape Verde,PRAIA,false
+South Africa,PRETORIA ,false
+Morocco,RABAT,false
+Sao Tome & Princepe,SAO TOME,false
+Libya,TRIPOLI,false
+Tunisia,TUNIS,false
+Seychelles,VICTORIA,false
+Namibia,WINDHOEK,false
+Cote D'Ivore,YAMOUSSOUKRO ,false
+Cameroon,YAOUNDÉ,false
+Pitcairn Islands,ADAMSTOWN,false
+Niue,ALOFI,false
+Samoa,APIA,false
+Cook Islands,AVARUA,false
+Australia,CANBERRA,false
+Christmas Island,FLYING FISH COVE,false
+Tuvalu,FUNAFETI,false
+Guam,HAGATNA,false
+Easter Island,HANGA ROA,false
+Tasmania,HOBART,false
+Solomon Islands,HONIARA,true
+Hawaii,HONOLULU,false
+Norfolk Island,KINGSTON,false
+Marshall Islands,MAJURO,false
+Wallis & Futuna,MATA,false
+Palau,NGERULMUD,false
+American Samoa,PAGO PAGO,false
+Federated States of Micronesia,PALIKIR,false
+French Polynesia,PAPEETE,false
+Vanuatu,PORTA VILA,false
+Papua New Guinea,PORT MORESBY,false
+New Caledonia,NOUMEA,false
+Tonga,NUKU'ALOFA,false
+Northern Mariana Islands,SAIPAN,false
+Kiribati,SOUTH TARAWA,false
+Fiji,SUVA,false
+Wake Island,WAKE ISLAND,false
+New Zealand,WELLINGTON,false
+Cocos (Keeling) Islands,WEST ISLAND,true
+Nauru,YAREN,false
+Paraguay,ASUNCION,false
+Colombia,BOGOTA,false
+Brazil,BRASILIA,false
+Argentina,BUENOS AIRES,false
+Venezuela,CARACAS,false
+French Guiana,CAYENNE,false
+Guyana,GEORGE TOWN,false
+St Helena,JAMESTOWN,false
+South Georgia and the Sandwich Islands,KING EDWARD POINT,false
+Peru,LIMA,false
+Uraguay,MONTEVIDEO,false
+Suriname,PARAMIBO,false
+Ecuador,QUITO,false
+Chile,SANTIAGO ,false
+Falkland Islands,STANLEY,false
+Bolivia,SUCRE ,false
+Belize,BELMOPAN,false
+Barbados,BRIDGETOWN,false
+St Kitts & Nevis,BASSETERRE,false
+St Lucia,CASTRIES,false
+Turks & Caicos Islands,COCKBURN TOWN,false
+United States Virgin Islands,CHARLOTTE AMALIE,false
+Cayman Islands,GEORGETOWN,false
+Guatemala,GUATEMALA CITY,false
+Saint Barthélemy,GUSTAVIA,false
+Cuba,HAVANA,false
+Jamaica,KINGSTON,false
+St Vincent & the Grenandines,KINGSTOWN,false
+Nicaragua,MANAGUA,false
+Saint Martin,MARIGOT,false
+Bahamas,NASSAU,false
+Aruba,ORANGESTAND,false
+Panama,PANAMA CITY,false
+Monserrat,PLYMOUTH,false
+Haiti,PORT AU PRINCE,false
+Trinidad & Tobago,PORT OF SPAIN,false
+British Virgin Islands,ROAD TOWN,false
+Dominica,ROSEAU,false
+Costa Rica,SAN JOSE,false
+Puerto Rico,SAN JUAN,false
+El Salvador,SAN SALVADOR,true
+Dominican Republic,SANTA DOMINGO,false
+Grenada,ST GEORGE'S,false
+Antigua & Barbuda,ST JOHN'S,false
+Honduras,TEGUCIGALPA,false
+Anguilla,THE VALLEY,false
+Neverlands,AMSTERDAM,false
+Antilles,WILLEMSTAD,false
+Bermuda,HAMILTON,false
+Mexico,MEXICO CITY,false
+Canada,OTTAWA,false
+Saint Pierre & Miquelon,SAINT,false
+United States of America,WASHINGTON DC,true

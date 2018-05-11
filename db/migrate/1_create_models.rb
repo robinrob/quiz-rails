@@ -1,21 +1,17 @@
-class CreateQuestions < ActiveRecord::Migration[5.1]
+class CreateModels < ActiveRecord::Migration[5.1]
   def change
-    create_table :quizes do |t|
+    create_table :quizzes do |t|
       t.string :name
-    endef
+    end
     
     create_table :questions do |t|
       t.string :title
+      t.integer :quiz_id
     end
 
     create_table :answers do |t|
       t.string :text
       t.integer :question_id
-      t.integer :score_id
-    end
-
-    create_table :scores do |t|
-      t.integer :value
     end
   end
 end
