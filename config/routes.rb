@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'questions' => 'quiz#questions'
+  get 'quiz/:id'
 
   post 'score_quiz' => 'quiz#score'
 end
