@@ -11,6 +11,17 @@ class QuizzesController < ApplicationController
   end
 
   def score
-    completed_quiz = params[:quiz]
+    answered_questions = params[:answered_questions]
+    score = 0
+    answered_questions.each do 
+      |answered_question|
+      question = Question.find(answered_question["id"])
+      if (question.answers.map {|ans| ans.id}).include? answered_question["answer"]["id"]
+        score += 1
+      end
+    end
+    render :json => {:score => score }
   end
 end
+
+
