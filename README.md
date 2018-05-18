@@ -5,4 +5,5 @@
 
 ## Setup
 1. `bundle install`
-2. `bundle exec rails s -p 3001`
+2. `rake db:migrate`
+3. `bundle exec rails s -p 3001`
