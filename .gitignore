@@ -17,6 +17,4 @@
 !/log/.keep
 !/tmp/.keep
 
-/yarn-error.log
-
 .byebug_history
