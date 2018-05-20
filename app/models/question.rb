@@ -1,5 +1,5 @@
 class Question < ApplicationRecord
-  has_one :quiz
+  belongs_to :quiz
   has_many :answers
 
   def multiple_choice_answers

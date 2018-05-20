@@ -10,23 +10,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.define(version: 3) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "answers", force: :cascade do |t|
-    t.string "text"
-    t.integer "question_id"
+    t.string "text", null: false
+    t.integer "question_id", null: false
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string "title"
-    t.integer "quiz_id"
+    t.string "title", null: false
+    t.integer "quiz_id", null: false
   end
 
   create_table "quizzes", force: :cascade do |t|
-    t.string "name"
+    t.string "name", null: false
+  end
+
+  create_table "scores", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "question_id", null: false
+    t.integer "bonus", default: 0, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username", null: false
   end
 
 end

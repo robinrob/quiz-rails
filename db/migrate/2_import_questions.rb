@@ -2,7 +2,7 @@ require 'csv'
 
 class ImportQuestions < ActiveRecord::Migration[5.1]
   def self.up
-    csv_text = File.read('capitals.csv')
+    csv_text = File.read('quiz_csv/capitals.csv')
     csv = CSV.parse(csv_text, :headers => true)
 
     quiz = Quiz.create(name: 'Capitals')
